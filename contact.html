@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -34,10 +33,11 @@
     <main class="main">
         <div class="container gutter-top">
             <!-- Header -->
+            <!-- Header -->
             <header class="header box">
                 <div class="header__left">
                     <div class="header__photo">
-                        <img class="header__photo-img" src="assets/img/profile.jpg" alt="Jo Lopes Queiroz">
+                        <img class="header__photo-img" src="assets/img/profile.jpeg" alt="Jo Lopes Queiroz">
                     </div>
                     <div class="header__base-info">
                         <h4 class="title titl--h4">Jo Lopes Queiroz</h4>
@@ -53,13 +53,15 @@
                                     <i class="font-icon icon-github"></i>
                                 </a>
                             </li>
+
                             <!-- <li>
                                 <a href="https://www.youtube.com/channel/UCTM1Idirf0ALOdEdq31qkjg?view_as=subscriber" target="_blank">
                                     <i class="font-icon icon-youtube"></i>
                                 </a>
                             </li> -->
+
                             <!-- <li>
-                                <a href="https://twitter.com/IuryProf" target="_blank">
+                                <a href="https://twitter.com/IuryProf">
                                     <i class="font-icon icon-twitter"></i>
                                 </a>
                             </li> -->
@@ -77,7 +79,8 @@
                         </li>
                         <li>
                             <span class="overhead">Telefone</span>
-                            <a href="https://api.whatsapp.com/send?phone=5515999999999" target="_blank"> +55 (15) 99999-9999 </a>
+                            <a href="https://api.whatsapp.com/send?phone=5515999999999" target="_blank"> +55 (15)
+                                99999-9999 </a>
                         </li>
                     </ul>
                     <ul class="header__contact">
@@ -97,92 +100,82 @@
                 <aside class="col-12 col-md-12 col-lg-2">
                     <div class="sidebar box sticky-column">
                         <ul class="nav">
-                            <li class="nav__item">
-                                <a class="active" href="index.php">
-                                    <i class="icon-user"></i>
-                                    Sobre Mim
-                                </a>
+                            <li class="nav__item"><a class="active" href="index.html"><i class="icon-user"></i>Sobre
+                                    Mim</a></li>
+                            <li class="nav__item"><a href="resume.html"><i class="icon-file-text"></i>Currículo</a></li>
+                            <li class="nav__item"><a href="works.html"><i class="icon-codesandbox"></i>Portifólio</a>
                             </li>
-                            <li class="nav__item">
-                                <a href="resume.php">
-                                    <i class="icon-file-text"></i>
-                                    Currículo
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="works.php">
-                                    <i class="icon-codesandbox"></i>
-                                    Portifólio
-                                </a>
-                            </li>
+                            <!--<li class="nav__item"><a href="blog.html"><i class="icon-book-open"></i>Blog</a></li>-->
+                            <li class="nav__item"><a href="contact.html"><i class="icon-book"></i>Contato</a></li>
                         </ul>
                     </div>
                 </aside>
 
-                <!-- Conteúdo do site -->
+                <!-- Conteudo -->
                 <div class="col-12 col-md-12 col-lg-10">
                     <div class="box box-content">
-                        <!-- Sobre Mim  -->
-                        <div class="pb-0 pb-sm-2">
-                            <h1 class="title title--h1 first-title title__separate">Sobre Mim</h1>
-                            <p>
-                                Meu nome é Jo Lopes Queiroz. <br>
-                                Quatro palavras para me descrever são Entusiasta, Dinâmico, Organizado e Estratégico.<br>
-                                Alguns dos meus esportes e jogos favoritos são Corrida, Programação e Quebra-cabeça.<br>
-                                Três coisas que me deixam feliz são: Resolver problemas, Criar soluções e Melhorar as coisas.<br>
-                                Minhas disciplinas favoritas são Programação, Robótica, Física e Matemática.<br>
-                            </p>
-                            <div>
+                        <div class="pb-2">
+                            <h1 class="title title--h1 first-title title__separate">Contato</h1>
+                        </div>
 
-                                <!-- Clients -->
-                                <div class="mt-4">
-                                    <h2 class="title title--h3">Clientes</h2>
+                        <!-- Contato -->
 
-                                    <div class="swiper-container js-carousel-clients">
-                                        <div class="swiper-wrapper">
-
-                                            <!-- Item client -->
-                                            <div class="swiper-slide">
-                                                <a href="https://www.hcinformatica.info/" target="_blank">
-                                                    <img src="assets/img/hcinformatica.png" style="background-color: #FFF;"
-                                                        alt="HC Informática" /></a>
-                                            </div>
-
-                                            <!-- Item client -->
-                                            <div class="swiper-slide">
-                                                <a href="https://www.br.com.br/" target="_blank">
-                                                    <img src="assets/img/brdistribuidora.png" style="background-color: #FFF;"
-                                                        alt="Br Distribuidora" /></a>
-                                            </div>
-
-                                            <!-- Item client -->
-                                            <div class="swiper-slide">
-                                                <a href="http://www.lojaimpactoinformatica.com.br/" target="_blank">
-                                                    <img src="assets/img/impactoinformatica.jpg" style="background-color: #FFF;"
-                                                        alt="Impacto Informática" /></a>
-                                            </div>
-
-                                            <!-- Item client -->
-                                            <div class="swiper-slide">
-                                                <a href="https://www.extrafarma.com.br/" target="_blank">
-                                                    <img src="assets/img/extrafarmafiladelfia.jpg" style="background-color: #FFF;"
-                                                        alt="Extrafarma Filadélfia" /></a>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="swiper-pagination"></div>
-                                    </div>
+                        <form action="email.html" method="post" id="contact-form" class="contact-form"
+                            data-toggle="validator">
+                            <div class="row">
+                                <div class="form-group col-12 col-md-6">
+                                    <input type="text" class="form-control" id="nameContact" name="nameContact"
+                                        placeholder="Nome" required="required" autocomplete="on"
+                                        oninvalid="setCustomValidity('Fill in the field')"
+                                        onkeyup="setCustomValidity('')">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12 col-md-6">
+                                    <input type="phone" class="form-control" id="phoneContact" name="phoneContact"
+                                        placeholder="Telefone" required="required" autocomplete="on"
+                                        oninvalid="setCustomValidity('Email is incorrect')"
+                                        onkeyup="setCustomValidity('')">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12 col-md-12">
+                                    <input type="email" class="form-control" id="emailContact" name="emailContact"
+                                        placeholder="Email" required="required" autocomplete="on"
+                                        oninvalid="setCustomValidity('Email is incorrect')"
+                                        onkeyup="setCustomValidity('')">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12 col-md-12">
+                                    <textarea class="textarea form-control" id="messageContact" name="messageContact"
+                                        placeholder="Mensagem" rows="4" required="required"
+                                        oninvalid="setCustomValidity('Fill in the field')"
+                                        onkeyup="setCustomValidity('')"></textarea>
+                                    <div class="help-block with-errors"></div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+                                    <div id="validator-contact" class="hidden"></div>
+                                </div>
+                                <div class="col-12 col-md-6 order-1 order-md-2 text-right">
+                                    <button type="submit" class="btn"><i class="font-icon icon-send"></i>
+                                        Enviar</button>
+                                </div>
+                            </div>
+                        </form><br><br><br>
 
-                            <!-- Footer -->
-                            <footer class="footer">
-                                © Jo Lopes Queiroz
-                            </footer>
+                        <div class="map" id="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.824943304019!2d-46.82046378548918!3d-23.646439470623644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce54a94ba3ac0d%3A0x86dcf699b8be9412!2sParque%20Luiza%2C%20Embu%20das%20Artes%20-%20SP%2C%2006810-240!5e0!3m2!1spt-BR!2sbr!4v1599504382367!5m2!1spt-BR!2sbr"
+                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
                         </div>
                     </div>
+
+                    <!-- Footer -->
+                    <footer class="footer">© Jo Lopes Queiroz</footer>
                 </div>
+            </div>
+        </div>
     </main>
 
     <!-- SVG masks -->
@@ -204,8 +197,7 @@
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/common.js"></script>
 
-
+    <script src="assets/demo/plugins-demo.js"></script>
 </body>
 
 </html>
-
